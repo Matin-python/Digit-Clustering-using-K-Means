@@ -1,5 +1,24 @@
 digit recognition
 
+## Project Structure
+
+```text
+Digit-Clustering-using-K-Means/
+│
+├── K-means_digit_clustering.py
+├── test dataset/
+│   ├── 0.jpg
+│   ├── 1.jpg
+│   ├── ...
+│   └── 9.jpg
+├── screenshots/
+│   ├── custom_digits.png
+│   └── digits_dataset_sample.png
+├── requirements.txt
+├── LICENSE
+└── README.md
+```
+
 
 ## Related Projects
 
