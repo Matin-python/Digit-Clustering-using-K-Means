@@ -1,6 +1,6 @@
 import cv2 
 import numpy as np 
-import seaborn as sns
+
 from sklearn.cluster import KMeans 
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
