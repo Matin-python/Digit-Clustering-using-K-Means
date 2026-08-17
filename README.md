@@ -6,7 +6,6 @@ The project demonstrates how K-Means can discover groups of handwritten digits *
 
 It also tests the trained clustering model on custom handwritten digit images.
 
----
 
 ## Overview
 
@@ -18,7 +17,6 @@ After clustering, the project uses the most common actual digit within each clus
 
 The project also uses **10 custom handwritten digit images** stored in the `test dataset` folder and predicts their corresponding clusters.
 
----
 
 ## Features
 
@@ -33,7 +31,6 @@ The project also uses **10 custom handwritten digit images** stored in the `test
 * 🖼️ Predicts custom handwritten digit images
 * 📊 Compares predicted and real outputs
 
----
 
 ## Technologies Used
 
@@ -44,7 +41,6 @@ The project also uses **10 custom handwritten digit images** stored in the `test
 * Matplotlib
 * SciPy
 
----
 
 ## Dataset
 
@@ -60,7 +56,6 @@ The dataset contains:
 
 Each 8×8 image is represented as a 64-dimensional feature vector when training the K-Means model.
 
----
 
 ## Machine Learning Workflow
 
@@ -80,7 +75,6 @@ The project follows these main steps:
 12. Map the predicted clusters to digit labels.
 13. Calculate the accuracy on the custom images.
 
----
 
 ## K-Means Clustering
 
@@ -100,7 +94,6 @@ clusters = kmeans.fit_predict(digits.data)
 
 The actual digit labels are **not used during this training process**.
 
----
 
 ## Cluster Visualization
 
@@ -114,7 +107,6 @@ The project then displays the ten cluster centers as images.
 
 This provides a visual representation of what each cluster has learned.
 
----
 
 ## Cluster Label Mapping
 
@@ -130,7 +122,6 @@ For example, if most of the samples assigned to cluster `3` are actually digit `
 
 This allows the clustering results to be compared with the actual digit labels.
 
----
 
 ## Custom Handwritten Digits
 
@@ -168,7 +159,6 @@ Each image is:
 
 The predicted clusters are then mapped to digit labels.
 
----
 
 ## Project Structure
 
@@ -192,20 +182,19 @@ Digit-Clustering-using-K-Means/
 └── README.md
 ```
 
----
 
 ## Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/Matin-python/Digit-Clustering-using-K-Means.git
+git clone https://github.com/Matin-python/Handwritten-Digit-Clustering.git
 ```
 
 Move into the project directory:
 
 ```bash
-cd Digit-Clustering-using-K-Means
+cd Handwritten-Digit-Clustering
 ```
 
 Install the required packages:
@@ -220,7 +209,6 @@ Or install them manually:
 pip install numpy opencv-python scikit-learn matplotlib scipy
 ```
 
----
 
 ## How to Run
 
@@ -241,7 +229,6 @@ The program will:
 * Predict their clusters.
 * Calculate the prediction accuracy.
 
----
 
 ## Evaluation
 
@@ -263,7 +250,6 @@ Although **accuracy** is reported, this is fundamentally an **unsupervised learn
 
 The target labels are only used **after clustering** to determine which digit each cluster most likely represents. They are not used to train the K-Means model.
 
----
 
 ## Example Output
 
@@ -293,7 +279,6 @@ It also predicts the custom handwritten digits:
 
 The exact results may vary depending on the version of scikit-learn and the clustering result.
 
----
 
 ## Visualization
 
@@ -303,7 +288,6 @@ Each center represents the average pattern learned for one cluster of handwritte
 
 This makes it possible to visually inspect what the K-Means algorithm has learned from the dataset.
 
----
 
 ## Related Project
 
@@ -334,7 +318,6 @@ The Logistic Regression project includes:
 | Predicts known classes             | Discovers groups                           |
 | Labels are known beforehand        | Cluster labels are assigned afterward      |
 
----
 
 ## Future Improvements
 
@@ -349,7 +332,6 @@ The Logistic Regression project includes:
 * 💾 Save and load the trained model
 * ⚙️ Improve K-Means parameter tuning
 
----
 
 ## Contributing
 
@@ -357,13 +339,11 @@ Contributions, suggestions, and bug reports are welcome.
 
 Feel free to fork the repository and submit a pull request.
 
----
 
 ## License
 
 This project is licensed under the MIT License.
 
----
 
 ## Author
 
