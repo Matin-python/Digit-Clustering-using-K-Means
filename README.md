@@ -306,7 +306,9 @@ The Logistic Regression project includes:
 * Mean Squared Error calculation
 
 ➡️ **Repository:**
-[https://github.com/Matin-python/Digits-Classification-Logistic-Regression.git](https://github.com/Matin-python/Digits-Classification-Logistic-Regression.git)
+[https://github.com/Matin-python/Handwritten-Digit-Recognition
+](https://github.com/Matin-python/Handwritten-Digit-Recognition.git)
+
 
 ### Main Difference
 
