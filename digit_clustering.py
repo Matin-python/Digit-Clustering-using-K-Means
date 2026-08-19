@@ -1,3 +1,7 @@
+'''
+Author: Mohammad Reza Bakhshandeh
+K-mean project
+'''
 import cv2 
 import numpy as np 
 import matplotlib.pyplot as plt
