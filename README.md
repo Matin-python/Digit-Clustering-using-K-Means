@@ -42,21 +42,6 @@ The project also uses **10 custom handwritten digit images** stored in the `test
 * SciPy
 
 
-## Dataset
-
-The project uses the **Digits Dataset** provided by scikit-learn.
-
-The dataset contains:
-
-* **1,797 handwritten digit samples**
-* **10 classes:** 0–9
-* **64 features per sample**
-* Each image has a resolution of **8 × 8 pixels**
-* Grayscale pixel values
-
-Each 8×8 image is represented as a 64-dimensional feature vector when training the K-Means model.
-
-
 ## Machine Learning Workflow
 
 The project follows these main steps:
@@ -229,6 +214,31 @@ The program will:
 * Predict their clusters.
 * Calculate the prediction accuracy.
 
+## Dataset
+
+The project uses the **Digits Dataset** provided by scikit-learn.
+
+The dataset contains:
+
+* **1,797 handwritten digit samples**
+* **10 classes:** 0–9
+* **64 features per sample**
+* Each image has a resolution of **8 × 8 pixels**
+* Grayscale pixel values
+
+Each 8×8 image is represented as a 64-dimensional feature vector when training the K-Means model.
+
+### Sample from the scikit-learn Digits Dataset
+
+<p align="center">
+  <img src="screenshots/digits_dataset_sample.png" width="560">
+</p>
+
+### Sample Custom Test Images
+
+<p align="center">
+  <img src="screenshots/custom_digits.png" width="560">
+</p>
 
 ## Evaluation
 
